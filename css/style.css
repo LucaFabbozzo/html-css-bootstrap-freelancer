@@ -1,0 +1,20 @@
+/* debug */
+
+[class^="container"], [class^="col"] {
+  background-color: rgba(185, 231, 232,.4);
+  border: 1px solid black;
+  margin-bottom: 20px;
+  min-height: 80px;
+}
+
+/* container */
+
+.sc-container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #2C3D50;
+  height: 87px;
+}

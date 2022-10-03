@@ -39,3 +39,16 @@ header {
 main section#about {
   background-color: #1ABC9D;
 }
+
+
+
+
+/* footer */
+
+footer .top {
+  background-color: #3B546E;
+}
+
+footer .bottom {
+  background-color: #2C3D50;
+}

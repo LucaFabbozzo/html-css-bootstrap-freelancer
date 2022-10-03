@@ -1,3 +1,5 @@
+
+
 /* debug */
 
 [class^="container"], [class^="col"] {
@@ -14,7 +16,16 @@
   margin: 0 auto;
 }
 
+/* header */
+
 header {
   background-color: #2C3D50;
   height: 87px;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  background-color: #1ABC9C;
+  height: 490px;
 }

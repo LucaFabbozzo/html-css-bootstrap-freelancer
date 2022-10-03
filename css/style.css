@@ -32,3 +32,10 @@ header {
 
 
 /* portfolio */
+
+
+/* about */
+
+main section#about {
+  background-color: #1ABC9D;
+}

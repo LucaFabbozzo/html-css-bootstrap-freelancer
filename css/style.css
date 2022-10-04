@@ -3,6 +3,7 @@
 h3 {
   text-align: center;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 img {
@@ -15,6 +16,12 @@ img {
   padding: 10px;
 }
 
+ .star .line {
+  background-color: white;
+  height: 4px;
+  width: 13%;
+  border-radius: 10px;
+}
 /* debug */
 
 /* [class^="container"], [class^="col"] {
@@ -77,16 +84,34 @@ header {
   padding-top: 10px;
 }
 
-.jumbotron .star .line {
-  background-color: white;
-  height: 4px;
-  width: 13%;
-  border-radius: 10px;
-}
+
 
 /* portfolio */
 
+#portfolio {
+  padding-top: 50px;
+}
 
+#portfolio .fa-star {
+  color: black;
+}
+
+#portfolio .star .line {
+  background-color: black;
+
+}
+
+#portfolio .star {
+  padding-bottom: 20px;
+}
+
+#portfolio img {
+  border-radius: 10px;
+}
+
+.lf-portfolio .col {
+  padding-bottom: 30px;
+}
 
 /* about */
 

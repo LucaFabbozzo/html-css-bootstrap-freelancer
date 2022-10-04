@@ -5,6 +5,15 @@ h3 {
   text-transform: uppercase;
 }
 
+img {
+  width: 100%;
+}
+
+.fa-star {
+  color: #FFFFFF;
+  font-size: 2rem;
+  padding: 10px;
+}
 
 /* debug */
 
@@ -43,8 +52,6 @@ header {
   color: #FFFFFF;
 }
 
-
-
 /* jumbotron */
 
 .jumbotron {
@@ -52,12 +59,29 @@ header {
   height: 490px;
 }
 
-.jumbotron .box {
-  width: 60%;
-  height: 300px;
-  background-color: #3B546E;
-  margin: 0 auto;
-  color: white;
+.jumbotron img {
+  width: 235px;
+}
+
+.jumbotron h1 {
+  text-transform: uppercase;
+  padding-top: 1.3rem;
+  font-weight: bolder;
+  color: #FFFFFF;
+}
+
+.jumbotron h4 {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  padding-top: 10px;
+}
+
+.jumbotron .star .line {
+  background-color: white;
+  height: 4px;
+  width: 13%;
+  border-radius: 10px;
 }
 
 /* portfolio */

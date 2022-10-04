@@ -17,7 +17,7 @@ h3 {
 
 /* container */
 
-.sc-container{
+.lf-container{
   width: 70%;
   margin: 0 auto;
 }
@@ -28,6 +28,22 @@ header {
   background-color: #2C3D50;
   height: 87px;
 }
+
+.lf-navbar .navbar-brand {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.lf-navbar .nav-link {
+  font-weight: bold;
+}
+
+.lf-navbar .navbar-toggler {
+  border: 1px solid #c1bfbf;
+  color: #FFFFFF;
+}
+
+
 
 /* jumbotron */
 

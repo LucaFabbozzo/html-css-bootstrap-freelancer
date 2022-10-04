@@ -102,7 +102,6 @@ header {
 
 #portfolio .star .line {
   background-color: black;
-
 }
 
 #portfolio img {
@@ -130,6 +129,47 @@ main section#about {
 #about .btn i {
   padding-right: 5px;
 }
+
+
+/* contact-me */
+#contact-me {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+#contact-me .fa-star {
+  color: black;
+}
+
+#contact-me .star .line {
+  background-color: black;
+}
+
+#contact-me input,
+#contact-me textarea{
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+  padding-bottom: 20px;
+  padding-left: 0;
+}
+
+#contact-me input::placeholder,
+#contact-me textarea::placeholder  {
+  font-size: 20px;
+  color: #434343;
+}
+
+#contact-me .btn {
+  background-color: #1ABC9C;
+  border: none;
+}
+
+
+
+
+
 
 
 /* footer */
